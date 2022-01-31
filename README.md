@@ -1,5 +1,12 @@
 # Programming1FinalAssignment
 
+# Research Question
+## Does cancer occur more often in provinces which have a high poverty probability?
+
+# Hypothesis
+## Cancer occurs more often in provinces with a high poverty probability.
+
+
 # Required Files
 
 1. [Municipalities 2010](https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/gemeentelijke-indelingen-alfabetisch-en-numeriek/gemeenten-alfabetisch-per-provincie-2015/gemeenten-alfabetisch-per-provincie-2010)
