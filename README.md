@@ -1,5 +1,7 @@
 # Programming1FinalAssignment
 
+People in poverty may be forced to buy lesser food, a lesser house and have less money to spend on hobbies. Due to these reasons cancer may occur more often among people living in poverty than among people living above the poverty line. In order to find an answer to this several datasets were used. Two datasets containing the municipalities in 2010 and 2018 were used. These were required because the data containing the information about cancer incidents only contained the information per province, rather than municipality. Therefore one final dataset was required as well. This datafile contained information about which municipality is located in which province. Combining all of these datasets made it possible to make a table containing the poverty and social assistance probabilities with the number of cancer incidents per province. Using this dataframe several visualisations were created to find an answer to the research question.
+
 # Research Question
 ## Does cancer occur more often in provinces which have a high poverty probability?
 
