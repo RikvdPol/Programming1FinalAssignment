@@ -20,6 +20,8 @@ People in poverty may be forced to buy lesser food, a lesser house and have less
 ## Bubbleplot
 Several visualisations are produced to try and find an answer to the research question and prove/disprove the hypothesis. 
 The first visualisation is a bubble plot. The x-axis of this plot contains the poverty probability, the y-axis contains the social assistance probability and the size of the bubbles describes the number of cancer incidents. Each bubble contains the information of a province for a selected year. The year can be changed via the slider located above the bubble plot. The information of specific provinces can be turned off by selecting that province from the legend.
+Below an example of the bubble plot can be seen. Do note that this one is not interactive.
+
 
 ## Boxplot
 In addition to the bubbleplot, a boxplot has been created as well. The boxplots show the spread of data of a specific type(either poverty probability, social assistance probability or number of cancer incidents) for the years 2011, 2013, 2015 and 2017 in the provinces of the Netherlands. Note that the boxplots are created per year, not per province. The variable for which to see the spread of the data can be selected via the dropdown menu located above the plot.
