@@ -16,6 +16,39 @@ People in poverty may be forced to buy lesser food, a lesser house and have less
 3. [Cancer Incidents](https://iknl.nl/nkr-cijfers?fs%7Cepidemiologie_id=506&fs%7Ctumor_id=1&fs%7Cregio_id=525%2C527%2C529%2C521%2C528%2C526%2C520%2C522%2C518%2C519%2C523%2C524&fs%7Cperiode_id=568%2C570%2C572%2C545&fs%7Cgeslacht_id=623&fs%7Cleeftijdsgroep_id=656&fs%7Cjaren_na_diagnose_id=666&fs%7Ceenheid_id=683&cs%7Ctype=line&cs%7CxAxis=periode_id&cs%7Cseries=regio_id&ts%7CrowDimensions=periode_id&ts%7CcolumnDimensions=regio_id&lang%7Clanguage=nl)
 4. [Municipalities per Province](https://digitaal.scp.nl/armoedeinkaart2019/waar-wonen-de-armen-in-nederland/)
 
+# Software
+The code is written in python 3.8.7, using jupyter notebook.
+Several packages were used to enhance the visualisations and file processing.
+These packages will be listed here, with a short explanation about what they are used for.
+
+1. Logging 3.8.7
+    - Logging is a package that makes it easy to log the code. Almost every code
+      contains a try and except statement. This ensures that the code will never break.
+      If the code is run successfully, a message describing the code that has ran will be printen
+      to a log file. If it doesn't run successfully the error message will be written instead.
+2. Pandas 1.2.1
+    - Pandas is a package that is used to read and process the data.
+3. Plotly 0.4.1
+    - Plotly is used to create a single scatter plot.
+4. yaml 5.4.1
+    - Yaml is used in conjunction with the Path package. This makes it possible to
+      use a config file, preventing hard coded paths.
+5. pathlib 3.4
+    - See package 4 yaml
+6. Numpy 1.22.1
+    - Numpy is a package that allows for array-processing. It is used for a 
+      multitude processes.
+7. Panel 0.12.6
+    - Panel is a package that assists in creating interactive plots. It is used
+      to create the bubble and boxplot.
+8. statsmodels 0.13.1
+    - statsmodels is a package that provided many statistical functions.
+9. scipy 1.6.0
+    - From scipy a specific subpackage and function is used, namely the chi2_contigency function
+10. IPython 7.27.0
+    - From IPython only a single function is used, namely md. This allows for python code
+      to be printen as markdown in a cell in jupyter notebook.
+
 # Visualisations
 ## Bubbleplot
 Several visualisations are produced to try and find an answer to the research question and prove/disprove the hypothesis. 
