@@ -50,6 +50,11 @@ These packages will be listed here, with a short explanation about what they are
       to be printen as markdown in a cell in jupyter notebook.
 
 # Visualisations
+## Scatterplot
+A scatterplot showing the relation of poverty probability and cancer incidents
+probability has been created. It shows that there is no strong relationship between the two.
+![Scatter](Images/Scatterplot.png)
+
 ## Bubbleplot
 Several visualisations are produced to try and find an answer to the research question and prove/disprove the hypothesis. 
 One of them is a bubble plot. The x-axis of this plot contains the poverty probability, the y-axis contains the social assistance probability and the size of the bubbles describes the number of cancer incidents. Each bubble contains the information of a province for a selected year. The year can be changed via the slider located above the bubble plot. The information of specific provinces can be turned off by selecting that province from the legend.
@@ -82,3 +87,7 @@ This was to research the relation between poverty and cancer incidents. The bubb
 well, but it is worthwile to connect a number to this. Two kinds of correlation plots are created, one using the standard 
 pearson method and one using the spearman method. spearman was used because the data is non-linear. 
 Therefore, pearson may not provide any significant information.
+
+After all the visualisations the chi2-test had been performed. This showed that
+the number of cancer incidents and the poverty probability are dependent on one another
+, but the exact relation still remains unclear.
