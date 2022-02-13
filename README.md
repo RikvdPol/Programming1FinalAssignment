@@ -18,7 +18,7 @@ People in poverty may be forced to buy lesser food, a lesser house and have less
 
 The data of the cancer incidents(3) may be of a different selection, as using the URL with the correct selections does not seem to work 100% of the time.
 Voor kankersoorten alle kankersoorten was selected. Geografie was set to provincies. Geslacht was set to man & vrouw and eenheid was set to aantal.
-Finally, the years that were selected were 2011 unntil 2017.
+Finally, the years that were selected were 2011 until 2017.
 # Software
 The code is written in python 3.8.7, using jupyter notebook.
 Several packages were used to enhance the visualisations and file processing.
